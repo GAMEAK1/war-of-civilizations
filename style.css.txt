@@ -44,3 +44,9 @@ body {
   background: #c19a6b;
   font-size: 34px;
 }
+.hex img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  pointer-events: none;
+}
