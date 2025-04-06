@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Arial';
+  background-color: #f5e9dc;
+  direction: rtl;
+}
+
+.resources-bar {
+  background: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.city {
+  display: grid;
+  grid-template-columns: repeat(6, 80px);
+  gap: 10px;
+  justify-content: center;
+  padding: 30px;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background: #ddd;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.building-main {
+  background-color: #c19a6b;
+  font-size: 28px;
+}
+
+.building-farm {
+  background-color: #a6d785;
+}
+
+.building-mine {
+  background-color: #999;
+}
+
+.building-wood {
+  background-color: #87a96b;
+}
