@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>حرب الحضارات</title>
+</head>
+<body>
+  <h1>مرحبًا بك في مشروع حرب الحضارات!</h1>
+</body>
+</html>
