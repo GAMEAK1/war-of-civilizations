@@ -7,7 +7,6 @@
 </head>
 <body>
 
-  <!-- Resource bar -->
   <div class="resources-bar">
     <span>Gold: 1000</span>
     <span>Wood: 800</span>
@@ -15,23 +14,11 @@
     <span>Wheat: 1200</span>
   </div>
 
-  <!-- City hex map -->
   <div class="hex-grid">
-    <!-- Main Castle -->
     <div class="hex center">
       <img src="assets/castle.png" alt="Castle">
     </div>
 
-    <!-- Resource Buildings -->
-    <div class="hex">
-      <img src="assets/farm.png" alt="Farm">
-    </div>
-    <div class="hex">
-      <img src="assets/lumber.png" alt="Lumber Camp">
-    </div>
-    <div class="hex">
-      <img src="assets/mine.png" alt="Mine">
-    </div>
     <div class="hex">
       <img src="assets/farm.png" alt="Farm">
     </div>
