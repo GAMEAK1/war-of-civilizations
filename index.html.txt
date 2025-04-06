@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>حرب الحضارات</title>
+  <title>War of Civilizations</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Resource bar -->
   <div class="resources-bar">
-    <span>ذهب: 1000</span>
-    <span>خشب: 800</span>
-    <span>حديد: 500</span>
-    <span>قمح: 1200</span>
+    <span>Gold: 1000</span>
+    <span>Wood: 800</span>
+    <span>Iron: 500</span>
+    <span>Wheat: 1200</span>
   </div>
 
+  <!-- City hex map -->
   <div class="hex-grid">
-    <!-- مركز المدينة -->
-<div class="hex center">
-  <img src="assets/castle.png" alt="القلعة">
-</div>
+    <!-- Main Castle -->
+    <div class="hex center">
+      <img src="assets/castle.png" alt="Castle">
+    </div>
 
-<!-- مباني موارد -->
-<div class="hex">
-  <img src="assets/farm.png" alt="مزرعة">
-</div>
-<div class="hex">
-  <img src="assets/lumber.png" alt="خشب">
-</div>
-<div class="hex">
-  <img src="assets/mine.png" alt="منجم">
-</div>
-
+    <!-- Resource Buildings -->
+    <div class="hex">
+      <img src="assets/farm.png" alt="Farm">
+    </div>
+    <div class="hex">
+      <img src="assets/lumber.png" alt="Lumber Camp">
+    </div>
+    <div class="hex">
+      <img src="assets/mine.png" alt="Mine">
+    </div>
+    <div class="hex">
+      <img src="assets/farm.png" alt="Farm">
+    </div>
+    <div class="hex">
+      <img src="assets/lumber.png" alt="Lumber Camp">
+    </div>
+    <div class="hex">
+      <img src="assets/mine.png" alt="Mine">
+    </div>
+  </div>
 
   <script src="app.js"></script>
 </body>
