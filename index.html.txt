@@ -6,23 +6,27 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="resources-bar">
     <span>ذهب: 1000</span>
-    <span>خشب: 500</span>
-    <span>حديد: 300</span>
-    <span>قمح: 800</span>
+    <span>خشب: 800</span>
+    <span>حديد: 500</span>
+    <span>قمح: 1200</span>
   </div>
 
-  <div class="city">
-    <!-- مبنى مركزي -->
-    <div class="cell center building-main">🏰</div>
+  <div class="hex-grid">
+    <!-- مركز المدينة -->
+    <div class="hex center">🏰</div>
 
-    <!-- خلايا مباني إنتاج -->
-    <div class="cell building-farm">🌾</div>
-    <div class="cell building-mine">⛏️</div>
-    <div class="cell building-wood">🌲</div>
-    <div class="cell building-empty"></div>
-    <!-- أضف خلايا أكثر لاحقًا -->
+    <!-- مباني موارد -->
+    <div class="hex">🌾</div>
+    <div class="hex">🌲</div>
+    <div class="hex">⛏️</div>
+    <div class="hex">🌾</div>
+    <div class="hex">🌲</div>
+    <div class="hex">⛏️</div>
+    <div class="hex">🌾</div>
+    <div class="hex">🌲</div>
   </div>
 
   <script src="app.js"></script>
